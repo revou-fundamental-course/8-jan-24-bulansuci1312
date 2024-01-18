@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persegi Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="banner-title">
+      <h1>Kalma - Kalkulator Matematik</h1>
+    </div>
+
+    <div class="title">
+      <h2>Welcome To Kalma</h2>
+      <p>Sebuah website sederhana untuk menghitung  nilai luas dan keliling sebuah persegi</p>
+    </div>
+
+    <div class="card">
+      <div class="rumus-persegi">
+        <h3>Hitung Luas Persegi</h3>
+        <img src="/assets/persegi.png" alt="" style="width: 300px" />
+        <div style="text-align: left">
+          <h4>Rumus Luas Persegi yaitu :</h4>
+          <p>L = S x S</p>
+          <h4>Di mana :</h4>
+          <p>L = Luas</p>
+          <p>S = Sisi</p>
+          <br>
+          
+        </div>
+        <div class="submit">
+          <input
+            type="number"
+            id="sideLengthLuas"
+            placeholder="Masukkan panjang sisi persegi"
+          />
+
+          <button class="btn-submit" onclick="calculateLuas()">Submit</button>
+          <button class="btn-reset" onclick="resetLuas()">Reset</button>
+        </div>
+        <div id="result">
+          <strong>Hasil:</strong>
+          <p id="areaResult"></p>
+        </div>
+      </div>
+
+      <div class="rumus-persegi">
+        <h3>Hitung Keliling Persegi</h3>
+        <img src="/assets/persegi.png" alt="" style="width: 300px" />
+        <div style="text-align: left">
+          <h4>Rumus Keliling Persegi yaitu :</h4>
+          <p>K = 4 x S</p>
+          <h4>Di mana :</h4>
+          <p>K = Keliling</p>
+          <p>4 = Banyak sisi persegi</p>
+          <p>S = Sisi</p>
+        </div>
+        <div class="submit">
+          <input
+            type="number"
+            id="sideLengthKeliling"
+            placeholder="Masukkan panjang sisi persegi"
+          />
+          <button class="btn-submit" onclick="calculateKeliling()">
+            Submit
+          </button>
+          <button class="btn-reset" onclick="resetKeliling()">Reset</button>
+        </div>
+        <div id="result">
+          <strong>Hasil:</strong>
+          <p id="perimeterResult"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+  
+  .banner-title {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 0.3px 30px;
+  }
+  
+  .title {
+    margin-top: 72px;
+    text-align: center;
+  }
+  
+  .btn-submit {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-reset {
+    background-color: #fc544b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .btn-reset:hover {
+    background-color: #e20d3a;
+  }
+  
+  .card {
+    margin: 72px;
+    padding: 32px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .rumus-persegi {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .submit {
+    display: flex;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
